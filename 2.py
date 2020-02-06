@@ -5,7 +5,6 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm.session import sessionmaker
 from difflib import ndiff
 
-
 engine=create_engine('sqlite:///Parsing_base.db', echo=False)
 base=declarative_base()
 
